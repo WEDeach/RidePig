@@ -28,6 +28,7 @@ class Main extends PluginBase implements Listener{
 
      Item::addCreativeItem(new Item(329));
      Item::addCreativeItem(new Item(398));
+}
     
     public function onPlayerQuit(PlayerQuitEvent $event){
      $name = $event->getPlayer()->getName();
